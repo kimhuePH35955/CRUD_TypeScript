@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="w-full bg-black h-14 text-neutral-50 text-2xl flex items-center pl-5">
+      Company Kim
+    </div>
+    <div class="flex">
+      <div class="w-[300px] border-r-2 h-screen bg-rose-200">
+        <ul class="w-[300px]">
+          <li class="border-b h-[50px]  hover:bg-lime-500"><a class="block text-center leading-[50px]" href="">Sản
+              phẩm</a></li>
+          <li class=" border-b h-[50px]  hover:bg-lime-500"><a class="block text-center leading-[50px]" href="">Tài
+              khoản</a></li>
+        </ul>
+      </div>
+      <div class="w-full ml-4">
+        <div class="flex border-b py-4">
+          <p class="text-4xl font-bold ">Dashboard</p>
+        </div>
+
+
+
+        <!-- Sửa thông tin
+             -->
+        <form class="mt-4 mr-4">
+          <div class="mb-5">
+            <label for="image" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Hình
+              ảnh</label>
+            <input type="file"
+              class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" />
+          </div>
+          <div class="mb-5">
+            <label for="name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Tên sản
+              phẩm</label>
+            <input type="text"
+              class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" />
+          </div>
+          <div class="mb-5">
+            <label for="price" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Giá</label>
+            <input type="text"
+              class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" />
+          </div>
+          <div class="mb-5">
+            <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white" for="level">Phiên
+              bản</label>
+            <select
+              class="w-[200px] border border-gray-300 text-gray-900 text-sm rounded-md bg-gray-50 focus:ring-blue-500 focus:border-blue-500 block p-2.5"
+              name="level">
+              <option value="1">2021</option>
+              <option value="2">2022</option>
+              <option value="3">2023</option>
+              <option value="4">2024</option>
+            </select>
+          </div>
+          <div class="mb-5">
+            <label for="count" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Số
+              lượng</label>
+            <input type="text"
+              class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" />
+          </div>
+          <div class="mb-5">
+            <label for="description" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Mô
+              tả</label>
+            <textarea class="bg-gray-50 border border-gray-300 text-gray-900 rounded-lg w-full p-2.5" name="description"
+              cols="30" rows="10"></textarea>
+          </div>
+
+          <button type="submit"
+            class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Submit</button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</body>
+
+</html>

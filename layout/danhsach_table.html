@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kim Huệ</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="flex">
+            <div class="w-full ml-4">
+                <div class="flex justify-between text-center border-b py-4">
+                    <p class="text-4xl font-bold text-center">Danh sách sản phẩm</p>
+                    <a class="mr-20 border bg-gray-200 rounded-md px-4 text-center flex items-center">Thêm</a>
+                </div>
+                <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
+                    <table class="w-full text-sm rtl:text-right text-gray-50 text-center">
+                        <thead class="text-xs text-gray-700 uppercase bg-gray-50">
+                            <tr>
+                                <th scope="col" class="w-[50px]">
+                                    <span>STT</span>
+                                </th>
+                                <th scope="col" class="px-6 py-3">Tên sản phẩm</th>
+                                <th scope="col" class="px-6 py-3">Hình ảnh</th>
+                                <th scope="col" class="px-6 py-3">Giá</th>
+                                <th scope="col" class="px-6 py-3">Phiên bản</th>
+                                <th scope="col" class="px-6 py-3">Mô tả</th>
+                                <th scope="col" class="px-6 py-3"></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="bg-white border-b">
+                                <td class="font-semibold text-gray-900">1</td>
+                                <td class="px-6 py-4 font-semibold text-gray-900">
+                                    Apple Watch
+                                </td>
+                                <td class="px-6 py-4 font-semibold text-gray-900">
+                                    <img class="m-auto w-[100px] h-[150px] object-cover"
+                                        src="https://picsum.photos/seed/picsum/200/300" alt="">
+                                </td>
+                                <td class="px-6 py-4 font-semibold text-gray-900">20000</td>
+                                <td class="px-6 py-4 font-semibold text-gray-900">
+                                    2021
+                                </td>
+                                <td class="px-6 py-4 font-semibold text-gray-900">
+                                    mô tả nè
+                                </td>
+                                <td class="px-6 py-4">
+                                    <a href="" class="px-4 py-2 bg-blue-600 text-white rounded-md mr-4"
+                                        class="font-medium text-red-600">Sửa</a>
+                                    <button class="px-4 py-2 bg-red-600 text-white rounded-md mr-4"
+                                        class="font-medium text-red-600">
+                                        Xóa
+                                    </button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+
+</html>

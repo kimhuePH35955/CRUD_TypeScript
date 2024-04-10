@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "name": "realme C55 kimhue updat",
+      "image": "https://picsum.photos/200/300/?blur",
+      "price": 2000,
+      "count": 5,
+      "description": "An apple mobile",
+      "brand": 2022,
+      "id": 15
+    },
+    {
+      "id": 16,
+      "name": "iPhone 11",
+      "image": "https://cdn.tgdd.vn/Products/Images/42/153856/iphone-11-trang-600x600.jpg",
+      "price": 2000,
+      "priceOld": 170000,
+      "description": "An apple mobile which is nothing like apple",
+      "count": 30,
+      "brand": "2024",
+      "sale": -30
+    }
+  ],
+  "users": []
+}
