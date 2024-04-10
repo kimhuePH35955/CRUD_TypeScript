@@ -1,24 +1,185 @@
 {
   "products": [
     {
-      "name": "realme C55 kimhue updat",
-      "image": "https://picsum.photos/200/300/?blur",
+      "id": 1,
+      "name": "iPhone 15 Pro Max",
+      "image": "https://cdn.tgdd.vn/Products/Images/42/305658/iphone-15-pro-max-blue-thumbnew-600x600.jpg",
       "price": 2000,
-      "count": 5,
-      "description": "An apple mobile",
-      "brand": 2022,
-      "id": 15
+      "description": "An apple mobile which is nothing like apple",
+      "count": 30,
+      "brand": 2022
+    },
+
+    {
+      "id": 2,
+      "name": "iPhone 15 Pro",
+      "image": "https://cdn.tgdd.vn/Products/Images/42/299033/iphone-15-pro-blue-thumbnew-600x600.jpg",
+      "price": 1000,
+      "description": "An apple mobile which is nothing like apple",
+      "count": 30,
+      "brand": 2022
+    },
+    {
+      "id": 3,
+      "name": "iPhone 15 Plus",
+      "image": "https://cdn.tgdd.vn/Products/Images/42/303891/iphone-15-plus-hong-128gb-thumb-600x600.jpg",
+      "price": 1000,
+      "description": "An apple mobile which is nothing like apple",
+      "count": 30,
+      "brand": 2022
+    },
+    {
+      "id": 4,
+      "name": "iPhone 15",
+      "image": "https://cdn.tgdd.vn/Products/Images/42/281570/iphone-15-xanh-la-thumb-600x600.jpg",
+      "price": 7000,
+      "description": "An apple mobile which is nothing like apple",
+      "count": 30,
+      "brand": 2022
+    },
+    {
+      "id": 5,
+      "name": "Samsung Galaxy 5G",
+      "image": "https://cdn.tgdd.vn/Products/Images/42/319665/samsung-galaxy-s24-yellow-thumb-600x600.png",
+      "price": 7000,
+      "description": "An apple mobile which is nothing like apple",
+      "count": 30,
+      "brand": 2022
+    },
+    {
+      "id": 6,
+      "name": "iPhone 12",
+      "image": "https://cdn.tgdd.vn/Products/Images/42/307172/samsung-galaxy-s24-plus-violet-thumb-600x600.jpg",
+      "price": 2200,
+      "description": "An apple mobile which is nothing like apple",
+      "count": 30,
+      "brand": 2022
+    },
+    {
+      "id": 7,
+      "name": "iPhone 15",
+      "image": "https://cdn.tgdd.vn/Products/Images/42/307174/samsung-galaxy-s24-ultra-grey-thumb-600x600.jpg",
+      "price": 2500,
+      "description": "An apple mobile which is nothing like apple",
+      "count": 30,
+      "brand": 2022
+    },
+    {
+      "id": 8,
+      "name": "iPhone 13 Pro",
+      "image": "https://cdn.tgdd.vn/Products/Images/42/322526/xiaomi-14-white-thumbnew-600x600.jpg",
+      "price": 2100,
+      "description": "An apple mobile which is nothing like apple",
+      "count": 30,
+      "brand": 2022
+    },
+    {
+      "id": 9,
+      "name": "iPhone 12",
+      "image": "https://cdn.tgdd.vn/Products/Images/42/314206/xiaomi-redmi-note-13-green-thumb-600x600.jpg",
+      "price": 2200,
+      "description": "An apple mobile which is nothing like apple",
+      "count": 30,
+      "brand": 2022
+    },
+    {
+      "id": 10,
+      "name": "iPhone 14",
+      "image": "https://cdn.tgdd.vn/Products/Images/42/314209/oppo-reno-11-xanh-thumb-600x600.jpg",
+      "price": 1200,
+      "description": "An apple mobile which is nothing like apple",
+      "count": 30,
+      "brand": 2022
+    },
+    {
+      "id": 11,
+      "name": "iPhone 15",
+      "image": "https://cdn.tgdd.vn/Products/Images/42/318906/vivo-y17-tim-thumb-600x600.jpg",
+      "price": 4200,
+      "description": "An apple mobile which is nothing like apple",
+      "count": 30,
+      "brand": 2022
+    },
+    {
+      "id": 12,
+      "name": "iPhone 12 Pro Max",
+      "image": "https://cdn.tgdd.vn/Products/Images/42/321434/realme-note-50-black-thumb-600x600.jpg",
+      "price": 2200,
+      "description": "An apple mobile which is nothing like apple",
+      "count": 30,
+      "brand": 2022
+    },
+    {
+      "id": 13,
+      "name": "iPhone X",
+      "image": "https://cdn.tgdd.vn/Products/Images/42/223602/iphone-13-starlight-1-600x600.jpg",
+      "price": 3200,
+      "description": "An apple mobile which is nothing like apple",
+      "count": 30,
+      "brand": 2022
+    },
+    {
+      "id": 14,
+      "name": "iPhone 13 128GB",
+      "image": "https://cdn.tgdd.vn/Products/Images/42/320460/xiaomi-redmi-note-13-black-thumb-600x600.jpg",
+      "price": 1200,
+      "description": "An apple mobile which is nothing like apple",
+      "count": 30,
+      "brand": 2022
+    },
+    {
+      "id": 15,
+      "name": "realme C55",
+      "image": "https://cdn.tgdd.vn/Products/Images/42/301603/realme-c35-vang-thumb-600x600.jpg",
+      "price": 8000,
+      "description": "An apple mobile which is nothing like apple",
+      "count": 30,
+      "brand": 2024
     },
     {
       "id": 16,
       "name": "iPhone 11",
       "image": "https://cdn.tgdd.vn/Products/Images/42/153856/iphone-11-trang-600x600.jpg",
       "price": 2000,
-      "priceOld": 170000,
       "description": "An apple mobile which is nothing like apple",
       "count": 30,
-      "brand": "2024",
-      "sale": -30
+      "brand": 2022
+    },
+    {
+      "id": 17,
+      "name": "Vivo Reno11 F 5G",
+      "image": "https://cdn.tgdd.vn/Products/Images/42/321895/oppo-reno11-f-timm-thumb-600x600.jpg",
+      "price": 2000,
+      "description": "An apple mobile which is nothing like apple",
+      "count": 30,
+      "brand": 2023
+    },
+    {
+      "id": 18,
+      "name": "Vivo Y36",
+      "image": "https://cdn.tgdd.vn/Products/Images/42/311120/vivo-y36-xanh-thumbnew-600x600.jpg",
+      "price": 2000,
+      "description": "An apple mobile which is nothing like apple",
+      "count": 30,
+      "brand": 2023
+    },
+    {
+      "id": 19,
+      "name": "realme C67",
+      "image": "https://cdn.tgdd.vn/Products/Images/42/319658/realme-c67-xanh-thumb-600x600.jpg",
+      "price": 4000,
+      "description": "An apple mobile which is nothing like apple",
+      "count": 30,
+      "brand": 2024
+    },
+    {
+      "id": 20,
+      "name": "realme 11",
+      "image": "https://cdn.tgdd.vn/Products/Images/42/310647/realme-11-thumb-600x600.jpg",
+      "price": 2000,
+      "description": "An apple mobile which is nothing like apple",
+      "count": 30,
+      "brand": 2024
     }
   ],
   "users": []
